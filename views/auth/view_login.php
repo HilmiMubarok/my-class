@@ -65,3 +65,9 @@
 		</div>
 	</div>
 </div>
+
+<?php
+	if (isset($_POST['btnLogin'])) {
+		login();
+	}
+?>
